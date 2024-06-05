@@ -9,6 +9,7 @@ function App(props) {
       <button onClick={props.minus}>-</button>
       <div>{props.counter}</div>
       <button onClick={props.plus}>+</button>
+      <h3>Hello UPDATE</h3>
     </div>
   );
 }
